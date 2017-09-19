@@ -16,7 +16,7 @@ int main()
     int choice;
     do
     {
-        system("cls"); //only on Windows 
+        //system("cls"); //only on Windows 
         initMenuBox();
         cin >> choice;
         menuDecision(choice);
